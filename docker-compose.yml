@@ -14,7 +14,7 @@ services:
       - conf:/etc/nginx/conf.d
 
   certbot:
-    image: certbot/certbot:v5.1.0
+    image: certbot/certbot:v5.2.2
     volumes:
       - certbot:/var/www/certbot
       - certs:/etc/letsencrypt
